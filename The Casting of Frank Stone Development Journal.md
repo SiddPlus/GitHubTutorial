@@ -76,10 +76,6 @@ The Casting of Frank Stone delivers an engaging horror experience that effective
 - Did you receive any feedback from users, peers or lecturers? How did you react to it?
 
 
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-
-- Did you try any new software or approaches? How did the effect development?
-
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
