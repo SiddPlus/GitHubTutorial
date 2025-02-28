@@ -10,6 +10,8 @@ Siddharth Ghosalkar
 
 For this project, I conducted extensive research on the source material, The Casting of Frank Stone, specifically on its gameplay mechanics to create a more immersive experience like the source material. I prioritized watching a entire gameplay walkthrough to develop a understanding of the source material.
 
+Additionally, I researched into horror and interactive narrative gameplay mechanics to deepen my understanding of genres mechanics and ensure its proper implementation within the game.
+
 #### Sources
 
 ##### The Casting of Frank Stone
@@ -72,7 +74,19 @@ The Casting of Frank Stone delivers an engaging horror experience that effective
 
 ##### Horror Mechanics
 
-##### Interactive Narratives
+TheGamer, established in 2017 by Valnet Inc., has rapidly positioned itself as a prominent digital gaming publication, offering a blend of in-depth guides, timely news, and insightful reviews across the gaming spectrum. Recognized for its extensive walkthroughs and features, TheGamer caters to a diverse gaming audience. However, its reception among readers is mixed; while some appreciate its comprehensive content, others critique its editorial stance and review methodologies. On Trustpilot, the site holds an average rating of 3.1 from six reviews, with feedback ranging from praise for its guides to concerns about perceived biases. Similarly, Scamadviser assigns TheGamer a positive trust score, noting its legitimacy and safety, yet highlights several negative consumer reviews. Despite these varied perspectives, TheGamer maintains a significant presence in the gaming community, continually influencing and informing its readership.
+
+[]
+
+The article "13 Most Intense Horror Game Mechanics" from TheGamer offers an engaging overview of various gameplay elements that heighten tension in horror games. I appreciated the inclusion of unique mechanics, such as heart rate monitoring in games like Nevermind, which adapt to the player's physiological responses to enhance immersion. However, I found the list could have delved deeper into the psychological impact of these mechanics, providing more analysis on how they affect player experience. Additionally, while the article covers a range of games, it might have benefited from discussing lesser-known titles that employ innovative horror mechanics, offering readers a broader perspective on the genre.
+
+##### Interactive Narratives Mechanics
+
+The source "Interactive Storytelling: Narrative Mechanics – The Gears of Imagination" published on FasterCapital's website explores the concept of narrative mechanics in interactive storytelling, focusing on how these structural components influence the player's experience in shaping a story. FasterCapital is a prominent global accelerator and venture building platform, known for fostering technology startups. While the platform offers insightful content for developers, its articles are primarily aimed at entrepreneurs and innovators. The source provides an informative overview of the role of narrative mechanics in interactive storytelling, making it a valuable resource for game developers, writers, and those interested in narrative design. However, as the website is more business-focused and does not specialize in academic discourse or game development, its authority might be questioned in comparison to more established academic journals or renowned industry experts. Despite this, the source offers practical insights, contributing to the ongoing dialogue surrounding interactive media and narrative construction.
+
+[]
+
+I found the article "Interactive Storytelling: Narrative Mechanics – The Gears of Imagination" to be an insightful read, particularly in how it underscores the importance of narrative mechanics in interactive storytelling. I appreciated the clear explanation of how player agency and decision-making can shape the direction of a story, which resonates with my interest in game development and the creative process. The article effectively captures the essence of interactive storytelling and emphasizes the evolving nature of narrative design in games. However, I did feel that the source could benefit from more in-depth examples or case studies from well-known games to illustrate its points. While the article offers a solid foundation, I would have liked to see more practical insights that tie directly to specific game mechanics or design choices. Nonetheless, I agree with the overall premise that narrative mechanics are essential for creating engaging and dynamic player experiences.
 
 ## Implementation
 
@@ -111,3 +125,6 @@ The Casting of Frank Stone (PS5/PC/Xbox Series) (2024) Developed by Supermassive
 
 THE CASTING OF FRANK STONE Gameplay Walkthrough FULL GAME [4K 60FPS PC ULTRA] - No Commentary (2024) At: https://www.youtube.com/watch?v=eQyVUUK5oFE
 
+Padilla, C. (2023) 13 Most Intense Horror Game Mechanics. At: https://www.thegamer.com/most-intense-horror-game-mechanics/ 
+
+Interactive storytelling: Narrative Mechanics: The Gears of Imagination: Understanding Narrative Mechanics (s.d.) At: https://fastercapital.com/content/Interactive-storytelling--Narrative-Mechanics--The-Gears-of-Imagination--Understanding-Narrative-Mechanics.html 
