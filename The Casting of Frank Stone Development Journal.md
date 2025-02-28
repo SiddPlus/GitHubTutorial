@@ -8,7 +8,7 @@ Siddharth Ghosalkar
 
 ## Research (Week 1)
 
-For this project, I conducted extensive research on the source material, The Casting of Frank Stone
+For this project, I conducted extensive research on the source material, The Casting of Frank Stone, specifically on its gameplay mechanics to create a more immersive experience like the source material. I prioritized watching a entire gameplay walkthrough to develop a understanding of the source material.
 
 #### Sources
 
