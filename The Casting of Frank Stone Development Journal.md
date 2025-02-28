@@ -12,14 +12,16 @@ For this project, I conducted extensive research on the source material, The Cas
 
 #### Sources
 
-##### Intro into The Casting of Frank Stone
+##### The Casting of Frank Stone
+
+###### Intro
 
 "The Casting of Frank Stone" is a collaborative effort between Supermassive Games, renowned for their interactive horror titles like "Until Dawn" and "The Quarry," and Behaviour Interactive, the creators of the popular multiplayer horror game "Dead by Daylight." Released on September 3, 2024, this game merges Supermassive's narrative-driven gameplay with the expansive lore of "Dead by Daylight." Critically, the game has received mixed to average reviews, with a Metascore of 68 based on 31 critic reviews and a user score of 5.7 from 156 ratings on Metacritic. While some reviewers praise its engaging narrative and atmospheric design, others point out issues such as underdeveloped characters and technical glitches. Despite these critiques, the game offers a unique experience for fans of both developers, expanding the "Dead by Daylight" universe through Supermassive's cinematic storytelling approach.
 
 
-##### Analysis of Gameplay Mechanics in The Casting of Frank Stone
+###### Analysis of Gameplay Mechanics in The Casting of Frank Stone*
 
-###### Movement Mechanics
+**Movement Mechanics**
 
 The movement system in The Casting of Frank Stone emphasizes exploration and environmental interaction, following a design philosophy similar to other Supermassive Games titles.
 
@@ -29,7 +31,7 @@ The movement system in The Casting of Frank Stone emphasizes exploration and env
 
 - Crouching & Squeezing Through Gaps: These mechanics likely contribute to stealth and environmental storytelling, requiring players to navigate tight spaces while potentially building suspense through limited visibility.
 
-###### Systems
+**Systems**
 
 - Dialogue System: Featuring binary choice options during both cutscenes and gameplay, this system reinforces the game's narrative focus. These choices may influence character relationships or outcomes, increasing replayability.
 
@@ -39,7 +41,7 @@ The movement system in The Casting of Frank Stone emphasizes exploration and env
 
 - Objective System: Likely provides players with clear direction while maintaining immersion, ensuring that they are always aware of their next goal.
 
-###### Core Mechanics
+**Core Mechanics**
 
 - Quick Time Events (QTEs): A signature of Supermassive Games' interactive storytelling, QTEs introduce reflex-based challenges that enhance tension and immersion, often determining the fate of characters.
 
@@ -49,24 +51,28 @@ The movement system in The Casting of Frank Stone emphasizes exploration and env
 
 - Moving Crates: A classic environmental interaction mechanic, this is likely used to solve traversal-based puzzles, such as clearing paths or reaching higher areas.
 
-###### Interactions
+**Interactions**
 
 - Collectibles: These provide lore-building opportunities, enriching the narrative for players who engage deeply with the world.
 First-Person Interaction Camera: When picking up objects, the game shifts to a first-person perspective, zooming in on the item and displaying UI if it is readable or interactable. This approach enhances immersion, drawing inspiration from similar mechanics in other horror titles, such as Resident Evil or Amnesia.
 
-###### My Experience
+**My Experience**
 
 I have not played The Casting of Frank Stone, but I watched a YouTube walkthrough to analyze its gameplay. I carefully examined and listed the game's mechanics for my team, as understanding them is crucial for our project. Since I will be programming some of these mechanics, studying their implementation in The Casting of Frank Stone provides valuable insight into how they function in a horror game setting.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eQyVUUK5oFE?si=nU25xtR8dY_xFN25" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-###### Conclusion
+**Conclusion**
 
 The gameplay mechanics in The Casting of Frank Stone align closely with Supermassive Games' interactive storytelling approach, blending exploration, decision-making, and cinematic horror. While the movement system enables immersive traversal, the game’s systems and mechanics work together to enhance engagement through environmental storytelling, suspense, and player agency.
 
-##### Conclusion of The Casting of Frank Stone
+###### Conclusion
 
 The Casting of Frank Stone delivers an engaging horror experience that effectively blends Supermassive Games' narrative-driven approach with Dead by Daylight’s dark universe. I enjoyed the atmospheric world-building, tense exploration, and choice-driven storytelling, which kept me invested throughout the game. The first-person interaction mechanic added to the immersion, and the minimal inventory system kept things simple yet effective. However, I found some of the mechanics, like the QTEs, to be overused at times, making certain sequences feel predictable rather than thrilling. Additionally, while the dialogue system provided choices, they often felt limited in impact. Overall, while I appreciate the game’s ambition and eerie storytelling, I believe some areas could have been refined for a more dynamic experience.
+
+##### Horror Mechanics
+
+##### Interactive Narratives
 
 ## Implementation
 
