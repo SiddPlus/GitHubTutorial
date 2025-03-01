@@ -74,9 +74,69 @@ The Casting of Frank Stone delivers an engaging horror experience that effective
 
 ##### Horror Mechanics
 
+###### Intro
+
 TheGamer, established in 2017 by Valnet Inc., has rapidly positioned itself as a prominent digital gaming publication, offering a blend of in-depth guides, timely news, and insightful reviews across the gaming spectrum. Recognized for its extensive walkthroughs and features, TheGamer caters to a diverse gaming audience. However, its reception among readers is mixed; while some appreciate its comprehensive content, others critique its editorial stance and review methodologies. On Trustpilot, the site holds an average rating of 3.1 from six reviews, with feedback ranging from praise for its guides to concerns about perceived biases. Similarly, Scamadviser assigns TheGamer a positive trust score, noting its legitimacy and safety, yet highlights several negative consumer reviews. Despite these varied perspectives, TheGamer maintains a significant presence in the gaming community, continually influencing and informing its readership.
 
-[]
+###### Horror Gameplay Mechanics
+
+**1. Task Juggling**
+
+In games like *Five Nights at Freddy's 2*, players are required to manage multiple tasks simultaneously, such as monitoring security cameras and keeping a music box wound to prevent attacks from animatronics. This multitasking under pressure amplifies anxiety, as neglecting any task can lead to sudden in-game consequences.
+
+**2. Heart Rate Monitoring**
+
+Innovative titles like *Nevermind* utilize biofeedback by monitoring the player's heart rate. The game adjusts its difficulty and environmental stressors based on the player's physiological responses, creating a personalized horror experience that challenges players to manage their fear in real-time.
+
+**3. Quick Time Events (QTEs)**
+
+QTEs require players to execute specific button prompts within a limited timeframe during critical moments. While sometimes criticized, when used effectively, they can immerse players in high-stakes scenarios, simulating the protagonist's frantic actions and decisions under duress.
+
+**4. Jump Scares**
+
+A staple in horror games, jump scares deliver sudden shocks to players, often accompanied by loud noises or unexpected visuals. Series like *Five Nights at Freddy's* have built their reputation on effectively utilizing jump scares to keep players on edge.
+
+**5. Being Chased**
+
+Chase sequences, as seen in games like *Poppy Playtime*, involve players being pursued by relentless adversaries, often without means of defense. These scenarios tap into primal fear, creating intense adrenaline rushes as players navigate through environments to escape.
+
+**6. Keeping Quiet**
+
+Some games require players to remain silent or minimize noise to avoid detection by enemies. This mechanic intensifies suspense, as even the slightest sound can attract danger, compelling players to move cautiously and heightening immersion.
+
+**7. Hiding**
+
+Mechanics that require players to conceal themselves from threats, such as hiding in lockers or under beds, amplify tension. The vulnerability during these moments, combined with the unpredictability of enemy behavior, keeps players on edge, exemplified in games like *Alien: Isolation*. 
+
+**8. Using a Camera Flash**
+
+Some horror games limit visibility, requiring players to use camera flashes to momentarily illuminate dark areas. This mechanic builds tension, as each flash could reveal lurking dangers, creating a sense of dread with every step. 
+
+**9. Your Light Source Running Out**
+
+Restricting visibility by providing finite light sources, like matches or flashlight batteries, forces players to navigate dark environments cautiously. The looming threat of being engulfed in darkness adds a layer of strategic resource management and heightens fear, as seen in titles like *Amnesia: The Dark Descent*. 
+
+**10. Staying Out of Darkness**
+
+Some games implement mechanics where darkness itself poses a threat, affecting the character's sanity or health. This encourages players to seek light sources actively, adding a strategic layer to gameplay and reinforcing the fear of the unknown lurking in the shadows. 
+
+**11. Something Peering from Around a Corner**
+
+The unsettling sight of an enemy or entity subtly peeking from around a corner can induce significant fear. This mechanic plays on the fear of being watched and the unknown intentions of the observer, creating a lingering sense of unease.
+
+**12. No Pausing**
+
+In certain horror games, the inability to pause the game, even when accessing menus or reading in-game documents, maintains continuous tension. Players must remain vigilant at all times, knowing that threats can emerge even during moments typically considered safe.
+
+**13. Enemies that only move when the player isn't looking**
+
+This mechanic involves enemies that only move when the player isn't looking at them, creating a nerve-wracking experience. Players must constantly monitor these foes to prevent their approach, adding a unique layer of strategic tension.
+
+**Conclusion**
+
+These various gameplay elements heighten tension and fear in horror games.
+
+###### Conclusion
 
 The article "13 Most Intense Horror Game Mechanics" from TheGamer offers an engaging overview of various gameplay elements that heighten tension in horror games. I appreciated the inclusion of unique mechanics, such as heart rate monitoring in games like Nevermind, which adapt to the player's physiological responses to enhance immersion. However, I found the list could have delved deeper into the psychological impact of these mechanics, providing more analysis on how they affect player experience. Additionally, while the article covers a range of games, it might have benefited from discussing lesser-known titles that employ innovative horror mechanics, offering readers a broader perspective on the genre.
 
