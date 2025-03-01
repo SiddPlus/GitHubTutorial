@@ -142,9 +142,29 @@ The article "13 Most Intense Horror Game Mechanics" from TheGamer offers an enga
 
 ##### Interactive Narratives Mechanics
 
+###### Intro
+
 The source "Interactive Storytelling: Narrative Mechanics – The Gears of Imagination" published on FasterCapital's website explores the concept of narrative mechanics in interactive storytelling, focusing on how these structural components influence the player's experience in shaping a story. FasterCapital is a prominent global accelerator and venture building platform, known for fostering technology startups. While the platform offers insightful content for developers, its articles are primarily aimed at entrepreneurs and innovators. The source provides an informative overview of the role of narrative mechanics in interactive storytelling, making it a valuable resource for game developers, writers, and those interested in narrative design. However, as the website is more business-focused and does not specialize in academic discourse or game development, its authority might be questioned in comparison to more established academic journals or renowned industry experts. Despite this, the source offers practical insights, contributing to the ongoing dialogue surrounding interactive media and narrative construction.
 
-[]
+###### Interactive Narratives Gameplay Mechanics
+
+1. **Choice and Consequence**: Players make decisions that significantly impact the storyline, leading to diverse outcomes and personalized experiences.
+
+2. **Branching Narratives**: The narrative structure adapts based on player choices, offering multiple story paths and endings.
+
+3. **Environmental Storytelling**: The game world itself conveys narrative elements, using settings and objects to provide context and background.
+
+4. **Dynamic Character Development**: Characters evolve in response to player interactions, allowing for deeper emotional connections and personalized story arcs.
+
+5. **Puzzle Solving**: Integrating puzzles within the narrative challenges players and advances the storyline, enhancing engagement.
+
+6. **Narrative Feedback**: The game provides immediate responses to player choices through changes in the environment, character reactions, or story direction, reinforcing the impact of decisions.
+
+7. **Player Agency**: Players have the freedom to influence the story's direction, fostering a sense of ownership and immersion.
+
+8. **Non-linear Time**: The narrative may present events out of chronological order, encouraging players to piece together the story themselves.
+
+###### Conclusion
 
 I found the article "Interactive Storytelling: Narrative Mechanics – The Gears of Imagination" to be an insightful read, particularly in how it underscores the importance of narrative mechanics in interactive storytelling. I appreciated the clear explanation of how player agency and decision-making can shape the direction of a story, which resonates with my interest in game development and the creative process. The article effectively captures the essence of interactive storytelling and emphasizes the evolving nature of narrative design in games. However, I did feel that the source could benefit from more in-depth examples or case studies from well-known games to illustrate its points. While the article offers a solid foundation, I would have liked to see more practical insights that tie directly to specific game mechanics or design choices. Nonetheless, I agree with the overall premise that narrative mechanics are essential for creating engaging and dynamic player experiences.
 
