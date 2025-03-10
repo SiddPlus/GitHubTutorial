@@ -5,6 +5,13 @@ Team 03
 Siddharth Ghosalkar
 
 2304613
+## Project Outline
+
+The project involves a small, interdisciplinary team of 8 individuals collaborating to create a game inspired by Supermassive Games's The Casting of Frank Stone. The core concept centers around leveraging diverse expertise to develop a unique gaming experience, blending elements of narrative, gameplay, and visuals in a cohesive manner. The purpose of the project is to combine creative minds from various fields to produce a compelling and engaging game.
+
+The project’s initial goals focus on building a strong foundation for the game by defining its core gameplay mechanics, crafting an engaging narrative, and developing a visually appealing aesthetic. The team will create a playable prototype that showcases these elements, allowing for early testing and iteration. Effective communication and project management are crucial to ensure smooth collaboration among the interdisciplinary team. The ultimate objective is to refine the game through continuous feedback, blending the strengths of each team member to produce a compelling and cohesive final build inspired by The Casting of Frank Stone.
+
+The primary challenge anticipated during development is the risk of being too ambitious. If the team sets overly ambitious goals or incorporates features that exceed the scope of what can be realistically achieved within the given timeframe, there is a chance the project may not be completed by the deadline. Ensuring a balance between ambitious ideas and achievable milestones will be crucial to maintaining progress and delivering the game on time.
 
 ## Research (Week 1)
 
@@ -168,7 +175,7 @@ The source "Interactive Storytelling: Narrative Mechanics – The Gears of Imagi
 
 I found the article "Interactive Storytelling: Narrative Mechanics – The Gears of Imagination" to be an insightful read, particularly in how it underscores the importance of narrative mechanics in interactive storytelling. I appreciated the clear explanation of how player agency and decision-making can shape the direction of a story, which resonates with my interest in game development and the creative process. The article effectively captures the essence of interactive storytelling and emphasizes the evolving nature of narrative design in games. However, I did feel that the source could benefit from more in-depth examples or case studies from well-known games to illustrate its points. While the article offers a solid foundation, I would have liked to see more practical insights that tie directly to specific game mechanics or design choices. Nonetheless, I agree with the overall premise that narrative mechanics are essential for creating engaging and dynamic player experiences.
 
-## Implementation
+## Implementation (Week 2 - Week 9)
 
 ### What was the process of completing the task? What influenced your decision making?
 
@@ -181,13 +188,13 @@ I found the article "Interactive Storytelling: Narrative Mechanics – The Gears
 
 - Did you have any issues completing the task? How did you overcome them?
 
-## Outcome
+## Outcome (Week 10)
 
 - [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 - [Example Repo Link](https://github.com/githubtraining/hellogitworld)
 - [Example Build Link](https://samperson.itch.io/desktop-goose)
 
-## Critical Reflection
+## Critical Reflection (Week 10)
 
 ### What did or did not work well and why?
 

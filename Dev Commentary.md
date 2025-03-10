@@ -1,90 +1,32 @@
-# Industry Brief: The Casting of Frank Stone
+## Project Outline
 
-Siddharth Ghosalkar
+Developers and designers collaborate to enhance an existing game, originally created during a game jam. The game, titled *The Last Drop*, is being expanded with additional features and functionality to improve the player experience. Developers work on coding and integrating new mechanics, while designers focus on refining the user interface, visual elements, and overall aesthetic. By combining their expertise, both teams aim to create a more polished and engaging version of the game. The goal is to take the initial game jam concept and transform it into a more complete and playable experience, adding depth and replayability. With the developers focusing on technical improvements and the designers emphasizing user experience, the collaboration between these two roles ensures the game's growth and evolution. The end result will offer players a more immersive and enjoyable gameplay experience, showcasing the potential of *The Last Drop* beyond its original game jam prototype.
 
-2304613
+The goals and objectives for expanding The Last Drop after its game jam release are centered around enhancing the gameplay experience and refining the game's features. The primary goal is to improve the overall player experience by adding new mechanics, optimizing controls, and enhancing the game’s flow. Developers focus on addressing bugs and performance issues while introducing new content, such as new mechanics, to increase player enjoyability. Designers work on refining the game’s aesthetics, improving visual elements, level design, and ensuring the audio complements the gameplay. Accessibility is also a key goal. The collaboration between developers and designers is crucial for integrating technical improvements with a polished user experience. Performance optimization ensures smooth gameplay on multiple PC. Additionally, the team collects player feedback to guide adjustments and balancing. Ultimately, the objective is to release a more complete and engaging version of The Last Drop, showcasing the potential of the original game jam prototype.
+
+One major challenge during the development of The Last Drop is time management. With the addition of new features, content, and mechanics, there’s a risk that the team may not meet the project’s deadline. The increased scope could lead to the hand in not being the teams vision if the team isn’t careful in managing resources and balancing priorities. Another challenge is communication, both between developers and designers and among developers themselves. Misunderstandings or lack of clear communication can result in mismatched expectations, missed details, or inconsistent implementation of game mechanics and design elements. This could affect the overall quality of the game, as both teams must be aligned in terms of goals and progress. Effective collaboration and regular check-ins will be essential to avoid these issues, ensuring that both technical and design elements come together smoothly. Overcoming these challenges will require careful planning, coordination, and adaptability to ensure the game is completed on time and meets the team's vision.
 
 ## Research
 
-### What sources or references have you identified as relevant to this task?
+### Portal 2
 
-- What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
-- What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
+Portal 2 is a critically acclaimed first-person puzzle-platformer by Valve that expands on its predecessor's innovative mechanics. Players navigate the Aperture Science facility using a Portal Gun, which creates linked portals for solving intricate puzzles. The game introduces new elements, such as repulsion, propulsion gels, and laser redirection, to add depth to the puzzles. With its rich narrative driven by the AI characters GLaDOS and Wheatley, the game weaves dark humor into a compelling story of corporate deception and experimentation. Portal 2 also features cooperative gameplay where two players work together to solve puzzles, emphasizing teamwork and communication. The game is celebrated for its clever design, gradual learning curve, and innovative integration of physics, making it a masterclass in puzzle-based game mechanics.
 
-#### Sources
+Portal 2’s development, discussed in GDC talks like *Creating a Sequel to a Game That Doesn’t Need One* (2012) (Portal 2: Creating a Sequel to a Game That Doesn’t Need One, 2016), highlights Valve’s innovative approach to expanding upon the original game’s mechanics. The team’s goal was to surprise players by evolving the core portal concept while introducing new gameplay elements like gels and laser redirection, which deepened the puzzle complexity. The narrative was enriched by a deeper exploration of GLaDOS, adding emotional weight and humor. The cooperative mode also stood out for its emphasis on teamwork and communication, requiring synchronized actions for puzzle-solving. Valve’s commitment to blending immersive storytelling with inventive mechanics resulted in a game that exceeded expectations, influencing puzzle-platformer design for years. These insights reflect Valve’s dedication to innovation in gameplay and narrative.
 
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-- An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
+The insights from *Portal 2*’s design are highly applicable to my project, particularly in terms of gameplay mechanics and player engagement. Valve’s approach to gradually introducing new mechanics—ensuring players understand and feel competent before adding complexity—aligns with my goal of creating an intuitive learning curve for players. This philosophy of starting simple and progressively increasing challenge allows players to feel confident and engaged. By prioritizing player experience and a gradual challenge progression, I’m aiming to make sure players stay immersed in the game without feeling overwhelmed. These principles influence my decision-making by guiding the pacing of new features and mechanics, ensuring that players can develop their skills at a steady and rewarding pace.
 
+### Unreal Engine 5 Physics Documentation
 
-"The Casting of Frank Stone" is a video game developed by an SupperMassive Games, released in 2024. The game has garnered attention for its unique narrative and gameplay mechanics, receiving positive reviews from critics and players alike. Despite being developed by a small team, it has been praised for its innovative approach and storytelling. However, some players have reported minor technical issues during its initial launch, which the developers have addressed through subsequent updates.
+The Unreal Engine documentation on physics provides crucial insights into systems that can significantly enhance The Last Drop. It delves into rigid body dynamics, collision detection, and physics constraints—elements that are vital for the game's interaction mechanics. Gaining a deeper understanding of these aspects can improve key features such as the character's movement, bubble physics, and environmental interactions, leading to a more immersive experience. For instance, implementing precise control over physics simulations can make puzzle-solving within the game more engaging and realistic, offering players a challenging yet intuitive experience. By effectively utilizing these techniques, developers can create smoother interactions, refining core gameplay mechanics. These improvements contribute to a richer, more responsive game world that feels dynamic and interconnected. The ability to fine-tune these physics-based systems ensures that gameplay feels both realistic and satisfying, allowing players to fully immerse themselves in the world of The Last Drop and enjoy an enhanced overall experience that balances challenge with accessibility.
 
+The technical knowledge from Unreal Engine's physics documentation is essential for enhancing *The Last Drop*, providing the development team with the tools to integrate realistic physics interactions central to the gameplay experience, such as character movement and bubble mechanics. By applying concepts like rigid body dynamics, collision detection, and physics constraints, the team can fine-tune gameplay elements, improve puzzle mechanics, and enhance overall fluidity, making the game world feel more dynamic and immersive. This knowledge also helps optimize controls, resolve performance issues, and ensure smooth, responsive gameplay without compromising the game's technical and aesthetic integrity. By leveraging these techniques, the development team can refine interactions, creating a more polished experience that enhances player satisfaction. The ability to fine-tune physics-based systems allows for a more seamless blend between mechanics and visuals, ensuring that the game feels both realistic and enjoyable. These improvements are crucial for maintaining a high standard of quality in *The Last Drop*, elevating the game's appeal and providing players with a satisfying, immersive experience that encourages engagement and exploration.
 
-## Implementation
-
-### What was the process of completing the task? What influenced your decision making?
-
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
-<br>
-
-```csharp
-using UnityEngine;
-public class HelloWorld : MonoBehaviour 
-{
-    public void Start() 
-    {
-        Debug.Log("Hello World!");
-    }
-}
-```
-*Figure 1. An example of using a script as a figure. This script has a `Start()` method!*
-
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-
-- Did you try any new software or approaches? How did the effect development?
-
-<br>
-
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
-
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
-
+## Impleamentation
 ## Outcome
-
-Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
-
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-*Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
-
-## Critical Reflection
-
-### What did or did not work well and why?
-
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
-
-### What would you do differently next time?
-
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
-
+## Reflection
 ## Bibliography
 
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
+Porrtal 2 (PC (Steam)) (2011) Developed and published by Valve
 
-Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/index.php?title=Video_game_development&oldid=1240603537 (Accessed  03/09/2024).
+Physics in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine 
