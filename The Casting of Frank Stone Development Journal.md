@@ -5,6 +5,7 @@ Team 03
 Siddharth Ghosalkar
 
 2304613
+
 ## Project Outline
 
 The project involves a small, interdisciplinary team of 8 individuals collaborating to create a game inspired by Supermassive Games's The Casting of Frank Stone. The core concept centers around leveraging diverse expertise to develop a unique gaming experience, blending elements of narrative, gameplay, and visuals in a cohesive manner. The purpose of the project is to combine creative minds from various fields to produce a compelling and engaging game.
@@ -177,16 +178,47 @@ I found the article "Interactive Storytelling: Narrative Mechanics – The Gears
 
 ## Implementation (Week 2 - Week 9)
 
-### What was the process of completing the task? What influenced your decision making?
+### Process
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
+#### Sprinting & Crouching (Week 2)
 
+<iframe width="560" height="315" src="https://blueprintue.com/render/3ppknt0b/" scrolling="no" allowfullscreen></iframe>
 
+This Blueprint handles character movement mechanics, specifically sprinting and crouching, using the Enhanced Input system. The top section listens for the IA_Sprint input action, setting the Is Sprinting boolean accordingly. An Event Tick node continuously checks if the player is sprinting; if true, it sets the character’s Max Walk Speed to 500, otherwise, it defaults to 250. The bottom section listens for the IA_Crouching input action, toggling the Is Crouching boolean. A branch node determines whether the player should crouch or uncrouch, calling the corresponding Crouch or UnCrouch functions. These mechanics dynamically adjust the player's movement speed and stance based on input.
 
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
+#### Checkpoint System (Week 2)
 
-- Did you have any issues completing the task? How did you overcome them?
+##### Collision with Checkpoint
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/0intg0xq/" scrolling="no" allowfullscreen></iframe>
+
+This Blueprint handles a checkpoint system using an overlap event. When the player enters a trigger box, the OnComponentBeginOverlap event is triggered. It first retrieves the instigating actor and attempts to cast it to BP_ThirdPersonCharacter_C to ensure that the overlapping actor is the player character. If the cast is successful, it then retrieves the game instance by casting to BP_GameInstance_C. The script then saves the player's current world transform as the respawn location by using GetWorldTransform on a scene component, storing this data in the game instance. Finally, it sets a boolean variable Checkpoint On to true, indicating that the checkpoint has been activated. This setup ensures that when the player reaches a checkpoint, their position is saved for potential respawn or continuation.
+
+##### Setting Respawn Position
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/a416ot_7/" scrolling="no" allowfullscreen></iframe>
+
+This Blueprint handles the player's respawn system using the saved checkpoint data. The Event BeginPlay node is triggered when the game starts. It first retrieves the game instance by casting it to BP_GameInstance_C and checks if the Checkpoint On boolean is set to true. If a checkpoint was previously activated, the script retrieves the saved respawn transform (location, rotation, and scale) and applies it to the player using the SetActorTransform node, ensuring the player starts at the last checkpoint position. The script then enables player input by calling Enable Input and passing the player controller. Lastly, it sets the player's mesh visibility to ensure they are properly displayed after respawning. This system ensures that when the game begins, the player is repositioned at the last checkpoint if one exists.
+
+#### Button Mashing QTE Mechanic (Week 3)
+#### Flash Mechanic (Week 4)
+#### Dialogue QTE Mechanic (Week 5)
+#### Gennerator Puzzle (Week 6)
+#### Heartbeat QTE (Week 7)
+
+#### Week 8 - 9
+
+In the weeks of 8 & 9, I focused on implementing the mechanics I programmed into the game. This involved integrating various gameplay features to ensure the game functions as a cohesive and working game. My goal was to make sure all the mechanics operated smoothly and contributed to the overall player experience.
+
+Alongside the implementation, I played a key role in polishing the game. This included refining the programming elements, fixing bugs, and improving the overall feel of the gameplay. Ensuring that the game was in its best possible state for submission was a priority, and I worked diligently to make sure everything was up to standard.
+
+Additionally, I built the game to be played as an executable, which made it more accessible for testing and submission. This step allowed the team to easily share and test the game outside of the development environment, ensuring that the final product was ready for external review and ready for submission.
+
+### Testing
+
+### Technical Difficulties
+
+One of my team members pushed their commits to their branch and then merged it with the main branch on GitHub, which caused conflicts between the log files in both branches. To resolve the issue, we removed the log files from their commits before pushing the changes to the main branch. After that, we added a line in the.gitignore file to ensure that GitHub would ignore log files in future commits, preventing similar conflicts from happening again.
 
 ## Outcome (Week 10)
 
@@ -196,15 +228,17 @@ I found the article "Interactive Storytelling: Narrative Mechanics – The Gears
 
 ## Critical Reflection (Week 10)
 
-### What did or did not work well and why?
+### Research Effectiveness
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+TThe research I conducted for this project has been incredibly valuable, providing me with a strong foundation for understanding the source material, *The Casting of Frank Stone*, and the broader context of horror and interactive narrative mechanics. Analyzing gameplay mechanics such as movement systems, QTEs, and flashlight mechanics helped me replicate the immersive experience of the original game, ensuring the gameplay elements in my project function cohesively to build tension. Exploring various horror mechanics like jump scares, task juggling, and hiding deepened my understanding of how to intensify emotional engagement, while research into interactive narrative mechanics, like choice and consequence and branching narratives, offered insight into crafting a responsive and dynamic story. Even though I didn’t play *The Casting of Frank Stone* directly, analyzing a full gameplay walkthrough provided critical understanding of its mechanics and concrete examples for my development. The sources that had the most significant impact were the gameplay analysis of *The Casting of Frank Stone*, the article on horror gameplay mechanics from *TheGamer*, and the insights from the *FasterCapital* article on interactive narrative mechanics. These sources collectively shaped my approach, from technical aspects like movement and QTEs to the narrative through concepts like branching storylines and dynamic character development. One key research gap that could have improved my outcomes is a deeper exploration of player psychology in horror games, particularly how different mechanics, such as pacing of scares or psychological tension, affect player engagement. I also could have benefited from more specific case studies on interactive narratives and research into horror game audio design, which would have helped refine the atmospheric elements of my game and improved its immersive experience.
 
-### What would you do differently next time?
+### Positive Analysis
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+### Negative Analysis
+
+### Next Time
+
+I would approach the project as a C++ development endeavor, combining the power and efficiency of C++ with the flexibility of Blueprints. This hybrid approach would allow me to leverage the strengths of both programming paradigms, enabling the development of complex game mechanics and systems through C++, while also utilizing Blueprints for rapid iteration and visual scripting. By integrating both, I can ensure optimal performance where needed and maintain an accessible workflow for experimentation and prototyping. One improvement to my workflow is to upgrade to a larger storage solution than Git LFS for GitHub. This would allow me to manage and store larger assets more efficiently without running into storage limitations. Using a more robust storage system would ensure smooth collaboration and avoid potential disruptions during development. One improvement to my implementation process is to ensure that everything is organized within actor components. This approach would help modularize the code, making it easier to manage, extend, and debug. By using actor components consistently, I can achieve better reusability and maintain a more efficient workflow throughout the development process.
 
 ## Bibliography
 
