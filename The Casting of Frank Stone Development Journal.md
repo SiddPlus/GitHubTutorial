@@ -234,7 +234,9 @@ The research I conducted for this project has been incredibly valuable, providin
 
 ### Positive Analysis
 
-The programming of the button mashing, generator puzzle and flash mechanic went well, ensuring smooth mechanics and responsive interactions that enhance the gameplay experience.
+As a game developer, I actively contributed beyond my primary role by participating in the motion capture process, working closely with animator to ensure fluid and realistic character movements. Additionally, I took part in voice and SFX recording sessions, helping to capture high-quality audio assets that enriched the overall gaming experience. My involvement in these areas reflects my adaptability, commitment to teamwork, and passion for delivering immersive and polished game content. 
+
+On the technical side, I successfully implemented the button-mashing mechanics, generator puzzle, and camera flash mechanic, ensuring smooth and highly responsive gameplay interactions. The button-mashing system was designed to provide an engaging challenge, requiring precise timing and player input, while the generator puzzle offered intuitive mechanics that balanced difficulty and engagement. The camera flash mechanic, a key feature for navigating dark environments, was fine-tuned to deliver instant visual feedback, allowing players to momentarily illuminate their surroundings and uncover hidden details.  These mechanics enhance immersion, responsiveness, and overall gameplay fluidity.
 
 ### Negative Analysis
 
