@@ -8,6 +8,12 @@ One major challenge during the development of The Last Drop is time management. 
 
 ## Research
 
+For this project, I conducted extensive research on FInterp To node and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
+
+Additionally, I used an example of an existing game to deepen my understanding of puzzle games mechanics and ensure its proper implementation within the game.
+
+In this project, I studied Henry Jenkins' perspectives on video games as a 'lively art' to enhance my understanding of designing innovative, interactive, and emotionally resonant game experiences.
+
 ### Portal 2
 
 Portal 2 is a critically acclaimed first-person puzzle-platformer by Valve that expands on its predecessor's innovative mechanics. Players navigate the Aperture Science facility using a Portal Gun, which creates linked portals for solving intricate puzzles. The game introduces new elements, such as repulsion, propulsion gels, and laser redirection, to add depth to the puzzles. With its rich narrative driven by the AI characters GLaDOS and Wheatley, the game weaves dark humor into a compelling story of corporate deception and experimentation. Portal 2 also features cooperative gameplay where two players work together to solve puzzles, emphasizing teamwork and communication. The game is celebrated for its clever design, gradual learning curve, and innovative integration of physics, making it a masterclass in puzzle-based game mechanics.
@@ -22,11 +28,32 @@ The documentation on FInterpTo in Unreal Engine provides valuable insight into i
 
 The technical knowledge from the FInterpTo documentation supports my project work on The Last Drop by providing a method for creating smooth, responsive transitions, particularly with the bubble growth and shrinkage mechanic. By applying FInterpTo, I can ensure the bubble's size changes gradually and naturally when it collides with water, making the transition feel more polished and visually appealing. This enhances the puzzle-solving experience by making player actions more intuitive and engaging. The knowledge guides my decision-making by offering a tool to fine-tune the speed and smoothness of these transitions, ensuring they align with the overall aesthetic and gameplay goals. Using FInterpTo contributes to a more fluid and immersive player experience, improving gameplay clarity, visual feedback, and player satisfaction. It helps create a seamless, polished interaction that strengthens the core mechanics of the game.
 
+### Academic Source
+
+Henry Jenkins, in his essay "Games, the New Lively Art" positions video games as a significant art form in the digital age, akin to how cinema and jazz were regarded during the machine age. He notes that games "open up new aesthetic experiences" (Jenkins, 2007, p. 23),emphasizing their capacity to transform the computer screen into a platform for accessible experimentation and innovation, engaging players in unique and meaningful ways. Jenkins draws parallels between the skepticism faced by early cinema and that encountered by contemporary video games, suggesting that, like films, games have the potential to evoke deep emotional engagement. He emphasizes that achieving such engagement doesn't necessarily rely on realism; instead, it hinges on the unique capabilities of the medium. He references Steve Poole's assertion that while film is "tied down to real spaces" (Jenkins, 2007, p. 39), video games possess "limitless plasticity" (Jenkins, 2007, p. 39), allowing for unprecedented artistic expression. Jenkins advocates for game designers to embrace this flexibility, encouraging them to create novel environments that captivate and immerse players. He cautions against merely transplanting cinematic techniques into games, arguing that such practices can lead to products "lacking meaningful gameplay" (Jenkins, 2007, p. 39). By recognizing and harnessing the distinct properties of video games, designers can craft experiences that are both innovative and emotionally resonant. By acknowledging video games as a "lively art" (Jenkins, 2007, p. 40), Jenkins challenges traditional distinctions between high and low culture, advocating for a broader appreciation of interactive media's role in the arts. This perspective encourages designers to explore the full expressive potential of games, pushing the boundaries of storytelling, aesthetics, and player engagement. 
+
 ## Impleamentation
 ## Outcome
 ## Reflection
+
+### Research Effectiveness
+
+The research conducted significantly enhanced *The Last Drop* by refining technical mechanics, gameplay design, and artistic direction. Studying FInterpTo allowed for smoother transitions, particularly with bubble mechanics, improving fluidity. Insights from Portal 2 guided the development of an intuitive learning curve, ensuring players were engaged without feeling overwhelmed. Henry Jenkins’ perspective on video games as a unique, emotionally resonant art form enriched the design, helping to deepen player engagement and elevate the narrative. The Unreal Engine FInterpTo documentation and Portal 2’s design philosophy had the most significant impact on the project, directly influencing both technical implementation and gameplay structure. A research gap in the project lies in user testing for gameplay flow, accessibility design, and performance optimization, as well as improving collaborative workflows.
+
+### Positive Analysis
+
+### Negative Analysis
+
+### Next Time
+
+If I were to undertake a similar project again, I would integrate more C++ into programming the game mechanics for greater control and efficiency. I would focus on using C++ for core systems and performance-critical features, such as physics and AI, to optimize the game's performance. Planning the game architecture with C++ in mind from the start would allow better management of complex systems, and the ability to handle low-level operations more effectively. I’d improve communication between C++ and Blueprint to maintain flexibility while benefiting from both approaches. Additionally, leveraging Unreal Engine’s C++ capabilities for smart pointers and memory management would create more scalable systems. Designing modular and reusable C++ code would also ensure smooth development for future projects.
+
 ## Bibliography
 
 Porrtal 2 (PC (Steam)) (2011) Developed and published by Valve
 
-Physics in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine 
+Portal 2: Creating a Sequel to a Game That Doesn’t Need One (2016) At: https://www.youtube.com/watch?v=BYFvwbby2YM
+
+FInterp To | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/Math/Interpolation/FInterpTo
+
+Henry Jenkins (2007). The WOW Climax: Tracing the emotional impact of popular culture, New York: NY, New York University.
