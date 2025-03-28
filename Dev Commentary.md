@@ -37,6 +37,41 @@ The technical knowledge from the FInterpTo documentation supports my project wor
 Henry Jenkins, in his essay "Games, the New Lively Art" positions video games as a significant art form in the digital age, akin to how cinema and jazz were regarded during the machine age. He notes that games "open up new aesthetic experiences" (Jenkins, 2007, p. 23),emphasizing their capacity to transform the computer screen into a platform for accessible experimentation and innovation, engaging players in unique and meaningful ways. Jenkins draws parallels between the skepticism faced by early cinema and that encountered by contemporary video games, suggesting that, like films, games have the potential to evoke deep emotional engagement. He emphasizes that achieving such engagement doesn't necessarily rely on realism; instead, it hinges on the unique capabilities of the medium. He references Steve Poole's assertion that while film is "tied down to real spaces" (Jenkins, 2007, p. 39), video games possess "limitless plasticity" (Jenkins, 2007, p. 39), allowing for unprecedented artistic expression. Jenkins advocates for game designers to embrace this flexibility, encouraging them to create novel environments that captivate and immerse players. He cautions against merely transplanting cinematic techniques into games, arguing that such practices can lead to products "lacking meaningful gameplay" (Jenkins, 2007, p. 39). By recognizing and harnessing the distinct properties of video games, designers can craft experiences that are both innovative and emotionally resonant. By acknowledging video games as a "lively art" (Jenkins, 2007, p. 40), Jenkins challenges traditional distinctions between high and low culture, advocating for a broader appreciation of interactive media's role in the arts. This perspective encourages designers to explore the full expressive potential of games, pushing the boundaries of storytelling, aesthetics, and player engagement. 
 
 ## Impleamentation
+
+### BP Spinning Actor
+
+#### Initial Blueprint
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/3843iie5/" scrolling="no" allowfullscreen></iframe>
+
+This blueprint rotates a static mesh over time. The Event BeginPlay node starts a Delay before calling Start Spin. Start Spin sets a looping timer (Set Timer by Event) to run the spin logic every 6 seconds. The rotation logic gets the mesh’s current relative rotation and modifies it using Lerp (Rotator) to interpolate between the current and target rotation (90-degree roll adjustment). SetRelativeRotation applies the update. A timeline named Spin manages animation, ensuring a gradual transition rather than an abrupt movement, creating a smooth and continuous spinning effect.
+
+#### Actor Component
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/i6g12nxs/" scrolling="no" allowfullscreen></iframe>
+
+This blueprint improves rotation handling with a structured, modular approach. Instead of modifying rotation in a single event, it uses a collapsed node for dynamic calculations. This node takes input parameters (rotation axes, time, and multipliers) and outputs refined values, enhancing interpolation control. The main event graph calls this function to compute new rotation values before applying them via SetActorRotation, ensuring smoother transformations. Compared to the first blueprint, this design enhances reusability, maintainability, and scalability, making it easier to adjust rotational behavior without modifying core logic.
+
+### Bubble Size Change
+
+#### Growth Function
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/5ng9to-u/" scrolling="no" allowfullscreen></iframe>
+
+This function manages bubble growth using "Water Amount." The "Growth" function adds it to "Current Size" and updates it with a SET node. If "Current Size" meets or exceeds "Max Size," it is clamped using another SET node, preventing overexpansion while allowing dynamic growth in response to game interactions. This ensures controlled and realistic size changes.
+
+#### Shrink Function
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/q0y2cgzq/" scrolling="no" allowfullscreen></iframe>
+
+This function manages bubble shrinking based on size and water amount. The "Shrink" function checks if "Current Size" is below "Max Size." If true, it reduces "Current Size" using "Water Amount" and updates it. A second check ensures it doesn’t fall below "Min Size," clamping if necessary. This prevents excessive shrinking while maintaining controlled, dynamic size changes.
+
+#### Growth Shrink Logic
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/w96ui2nl/" scrolling="no" allowfullscreen></iframe>
+
+This mechanic updates every frame using Event Tick, storing Delta Seconds for size changes in the "GrowthShrink" node. A Branch checks if the object is in water, triggering the Growth or Shrink function based on the condition. Lerp nodes handle smooth scaling transitions, and FInterp To interpolates the sphere’s scale, adjusting it dynamically based on water interaction for consistent, fluid transformations.
+
 ## Outcome
 
 ## Reflection
@@ -47,7 +82,11 @@ The research conducted significantly enhanced *The Last Drop* by refining techni
 
 ### Positive Analysis
 
+
+
 ### Negative Analysis
+
+
 
 ### Next Time
 
