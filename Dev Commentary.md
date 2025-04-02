@@ -22,7 +22,14 @@ Portal 2’s development, discussed in GDC talks like Creating a Sequel to a Gam
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BYFvwbby2YM?si=Wv3kc8FWwDYVWNtW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+*Video 1*: Portal 2 GDC talk
+
 The insights from *Portal 2*’s design are highly applicable to *The Last Drop*’s development, particularly regarding gameplay mechanics and player engagement. Valve’s method of gradually introducing new mechanics—allowing players to understand and feel competent before adding complexity—aligns with my goal of creating an intuitive learning curve. This approach ensures players stay confident and engaged while progressively increasing the challenge. By prioritizing player experience and gradual progression, I aim to keep players immersed without feeling overwhelmed. These principles guide my decisions on pacing new features, ensuring a steady, rewarding skill development curve for players.
+
+![Portal 2](./Photos/1449-2011-07-04_00012.jpg)
+
+
+*Photo 1*: Drop Splash Mechanic from Portal 2
 
 ### Unreal Engine 5 FInterp To Documentation
 
