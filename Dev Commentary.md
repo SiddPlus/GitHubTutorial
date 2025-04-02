@@ -39,6 +39,8 @@ The technical knowledge from the FInterpTo documentation will support my project
 
 ![FInterpTo](./FInterpTo.jpg)
 
+*Photo 2*: FInterpTo Node
+
 
 ### Academic Source
 
