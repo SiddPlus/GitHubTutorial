@@ -201,7 +201,27 @@ This Blueprint handles a checkpoint system using an overlap event. When the play
 This Blueprint handles the player's respawn system using the saved checkpoint data. The Event BeginPlay node is triggered when the game starts. It first retrieves the game instance by casting it to BP_GameInstance_C and checks if the Checkpoint On boolean is set to true. If a checkpoint was previously activated, the script retrieves the saved respawn transform (location, rotation, and scale) and applies it to the player using the SetActorTransform node, ensuring the player starts at the last checkpoint position. The script then enables player input by calling Enable Input and passing the player controller. Lastly, it sets the player's mesh visibility to ensure they are properly displayed after respawning. This system ensures that when the game begins, the player is repositioned at the last checkpoint if one exists.
 
 #### Button Mashing QTE Mechanic (Week 3)
+
 #### Flash Mechanic (Week 4)
+
+##### Toggle Aiming Function
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/-4qrcf60/" scrolling="no" allowfullscreen></iframe>
+
+This blueprint toggles a character's aiming mode by adjusting camera properties and visibility. When Toggle Aiming is triggered, it updates the Is Aiming Boolean and checks its value. If true, the camera's Field of View (FoV) is set to Aim FOV, the camera position shifts to aiming coordinates, and Is in Camera Mode is enabled. The character mesh is hidden, and the camera boom shortens to 0.0 for a closer view. If false, it resets the FoV to default, restores the camera position, disables Is in Camera Mode, makes the mesh visible, and extends the camera boom to 400.0, returning to third-person mode. This setup enables smooth transitions between third person and first person.
+
+##### Trigger Flash Function
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/brecidsu/" scrolling="no" allowfullscreen></iframe>
+
+This blueprint handles a flash effect by adjusting the intensity of a light component. The process starts with the Trigger Flash event, which activates the Set Intensity function. This function modifies the intensity of a spotlight attached to the BP Third Person Character, using a variable called New Intensity to determine the brightness level. The modified light intensity is applied to the spotlight component, creating the flash effect. After adjusting the light intensity, the Can Flash Boolean variable is set to control whether another flash can occur. This setup ensures that the light's intensity is dynamically changed when the event is triggered, allowing for a controlled flash effect.
+
+##### Event Tick
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/zp5jj7pf/" scrolling="no" allowfullscreen></iframe>
+
+This blueprint is executed every frame through the Event Tick node and is primarily responsible for smoothly updating the camera’s position, field of view, and light intensity. It first captures Delta Seconds to ensure smooth frame-dependent calculations. The Set Relative Transform node adjusts the position and rotation of a scene component, likely the camera or an attached object, interpolating values using FInterpTo for smooth transitions. The Field of View is also gradually adjusted based on aiming input, ensuring a dynamic zoom effect. Additionally, a spotlight’s intensity is modified over time, possibly to create a flashing or dimming effect, using interpolation to achieve a natural transition. A Branch node checks a condition before setting Can Flash which prevents continuous flashing. This blueprint effectively manages smooth camera movement, aiming mechanics, and light transitions for an immersive gameplay experience.
+
 #### Dialogue QTE Mechanic (Week 5)
 #### Gennerator Puzzle (Week 6)
 #### Heartbeat QTE (Week 7)
@@ -215,6 +235,8 @@ Alongside the implementation, I played a key role in polishing the game. This in
 Additionally, I built the game to be played as an executable, which made it more accessible for testing and submission. This step allowed the team to easily share and test the game outside of the development environment, ensuring that the final product was ready for external review and ready for submission.
 
 ### Testing
+
+Once we finished development, we moved on to the testing phase to ensure everything functioned as intended. We began by testing within the editor, carefully evaluating the mechanics and levels to identify any potential issues or inconsistencies. This allowed us to make necessary adjustments and refine the gameplay experience before proceeding further. After addressing any initial problems, we built the game and conducted another round of testing, this time focusing on how the mechanics and levels performed in the final build. This step was crucial for identifying any new issues that might have emerged due to the transition from the editor to the built version, ensuring a smoother and more polished experience for players.
 
 ### Technical Difficulties
 
