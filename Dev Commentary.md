@@ -82,6 +82,14 @@ This function manages bubble shrinking based on size and water amount. The "Shri
 
 This mechanic updates every frame using Event Tick, storing Delta Seconds for size changes in the "GrowthShrink" node. A Branch checks if the object is in water, triggering the Growth or Shrink function based on the condition. Lerp nodes handle smooth scaling transitions, and FInterp To interpolates the sphere’s scale, adjusting it dynamically based on water interaction for consistent, fluid transformations.
 
+### Testing
+
+Once I completed development on the mechanic, I shifted my focus to thoroughly testing it to ensure that it functioned correctly and delivered a smooth, consistent experience. I began by running tests directly within the editor, which allowed me to observe the mechanic’s behavior in a controlled setting and pinpoint any bugs or unintended outcomes. This phase was critical for identifying issues early, before the mechanic was integrated into broader gameplay. I paid close attention to how it interacted with other systems, assets, and variables, making sure it behaved as expected in a variety of situations. During this testing process, I made a series of iterative adjustments. Some were small, like tweaking numerical values or collision settings, while others involved reworking logic or reorganizing scripts to improve reliability and performance. I approached the mechanic not just from a technical standpoint, but also from a player’s perspective—constantly asking whether it felt intuitive, engaging, and satisfying to use. I considered how it contributed to the overall flow and balance of the game, ensuring that it supported the intended gameplay experience. After each revision, I retested thoroughly, confirming that fixes worked and that no new problems were introduced. This cycle of testing and refinement was repeated multiple times until I reached a version of the mechanic that was both stable and enjoyable to use. By taking a careful, iterative approach, I was able to polish the mechanic into a fully functional feature, ready for integration into the complete game. The end result was a system that worked seamlessly and elevated the quality of the gameplay as a whole.
+
+### Technical Difficulties
+
+I helped a designer push their work and rive plugin in github main. when he pushed to main he work was getting deleted from main so before pushing to main I  removed minus changes then pushed his work to main
+
 ## Outcome
 
 ## Reflection
