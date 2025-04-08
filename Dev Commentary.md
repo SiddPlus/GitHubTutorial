@@ -1,10 +1,6 @@
 ## Project Outline
 
-Developers and designers collaborate to enhance an existing game, originally created during a game jam. The game, titled The Last Drop, is being expanded with additional features and functionality to improve the player experience. Developers work on coding and integrating new mechanics, while designers focus on refining the user interface, visual elements, and overall aesthetic. By combining their expertise, both teams aim to create a more polished and engaging version of the game. The goal is to take the initial game jam concept and transform it into a more complete and playable experience, adding depth and replayability. With the developers focusing on technical improvements and the designers emphasizing user experience, the collaboration between these two roles ensures the game's growth and evolution. The end result will offer players a more immersive and enjoyable gameplay experience, showcasing the potential of *The Last Drop* beyond its original game jam prototype.
-
-The goals and objectives for expanding The Last Drop after its game jam release are centered around enhancing the gameplay experience and refining the game's features. The primary goal is to improve the overall player experience by adding new mechanics, optimizing controls, and enhancing the game’s flow. Developers focus on addressing bugs and performance issues while introducing new content, such as new mechanics, to increase player enjoyability. Designers work on refining the game’s aesthetics, improving visual elements, level design, and ensuring the audio complements the gameplay. Accessibility is also a key goal. The collaboration between developers and designers is crucial for integrating technical improvements with a polished user experience. Performance optimization ensures smooth gameplay on multiple PC. Additionally, the team collects player feedback to guide adjustments and balancing. Ultimately, the objective is to release a more complete and engaging version of The Last Drop, showcasing the potential of the original game jam prototype.
-
-One major challenge during the development of The Last Drop is time management. With the addition of new features, content, and mechanics, there’s a risk that the team may not meet the project’s deadline. The increased scope could lead to the hand in not being the teams vision if the team isn’t careful in managing resources and balancing priorities. Another challenge is communication, both between developers and designers and among developers themselves. Misunderstandings or lack of clear communication can result in mismatched expectations, missed details, or inconsistent implementation of game mechanics and design elements. This could affect the overall quality of the game, as both teams must be aligned in terms of goals and progress. Effective collaboration and regular check-ins will be essential to avoid these issues, ensuring that both technical and design elements come together smoothly. Overcoming these challenges will require careful planning, coordination, and adaptability to ensure the game is completed on time and meets the team's vision.
+Developers and designers are collaborating to expand *The Last Drop*, a game originally created during a game jam, by enhancing its features, functionality, and overall player experience. Developers focus on coding new mechanics, fixing bugs, optimizing performance, and introducing fresh content, while designers refine the user interface, level design, visual elements, and audio to improve aesthetics and accessibility. Together, they aim to transform the initial prototype into a more complete and engaging version, adding depth, replayability, and polish. A key goal is to ensure smooth gameplay across various PCs and to incorporate player feedback for balanced improvements. However, challenges like time management and communication pose risks to meeting deadlines and maintaining the team’s vision. Clear collaboration, regular check-ins, and resource planning are essential for delivering a high-quality, cohesive game.
 
 ## Research
 
@@ -22,14 +18,13 @@ Portal 2’s development, discussed in GDC talks like Creating a Sequel to a Gam
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BYFvwbby2YM?si=Wv3kc8FWwDYVWNtW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Video 1*: Portal 2 GDC talk
+*Figure 1*: Portal 2 GDC talk
 
 The insights from *Portal 2*’s design are highly applicable to *The Last Drop*’s development, particularly regarding gameplay mechanics and player engagement. Valve’s method of gradually introducing new mechanics—allowing players to understand and feel competent before adding complexity—aligns with my goal of creating an intuitive learning curve. This approach ensures players stay confident and engaged while progressively increasing the challenge. By prioritizing player experience and gradual progression, I aim to keep players immersed without feeling overwhelmed. These principles guide my decisions on pacing new features, ensuring a steady, rewarding skill development curve for players.
 
-![Portal 2](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/1449-2011-07-04_00012.jpg?token=GHSAT0AAAAAADBDEZZ2U4KWFGAYCL6DVULOZ7U7YNQ)
+![Portal 2](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/1449-2011-07-04_00012.jpg)
 
-
-*Photo 1*: Drop Splash Mechanic from Portal 2
+*Figure 2*: Drop Splash Mechanic from Portal 2
 
 ### Unreal Engine 5 FInterp To Documentation
 
@@ -37,7 +32,7 @@ The documentation on `FInterpTo` in Unreal Engine will provide valuable insight 
 
 The technical knowledge from the `FInterpTo` documentation will support my project work on The Last Drop by providing a method for creating smooth, responsive transitions, particularly with the bubble growth and shrinkage mechanic. By applying `FInterpTo`, I will ensure the bubble's size changes gradually and naturally when it collides with water, making the transition feel more polished and visually appealing. This will enhance the puzzle-solving experience by making player actions more intuitive and engaging. The knowledge will guide my decision-making by offering a tool to fine-tune the speed and smoothness of these transitions, ensuring they align with the overall aesthetic and gameplay goals. Using FInterpTo will contribute to a more fluid and immersive player experience, improving gameplay clarity, visual feedback, and player satisfaction. It will help create a seamless, polished interaction that strengthens the core mechanics of the game.
 
-![FInterpTo](.https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/FInterpTo.png?token=GHSAT0AAAAAADBDEZZ3F4J4CRBGAAGFUDIAZ7VAG5A)
+![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/FInterpTo.png)
 
 *Figure 3*: FInterpTo Node
 
