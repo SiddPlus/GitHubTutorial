@@ -1,6 +1,6 @@
 ## Project Outline
 
-Developers and designers are collaborating to expand *The Last Drop*, a game originally created during a game jam, by enhancing its features, functionality, and overall player experience. Developers focus on coding new mechanics, fixing bugs, optimizing performance, and introducing fresh content, while designers refine the user interface, level design, visual elements, and audio to improve aesthetics and accessibility. Together, they aim to transform the initial prototype into a more complete and engaging version, adding depth, replayability, and polish. A key goal is to ensure smooth gameplay across various PCs and to incorporate player feedback for balanced improvements. However, challenges like time management and communication pose risks to meeting deadlines and maintaining the team’s vision. Clear collaboration, regular check-ins, and resource planning are essential for delivering a high-quality, cohesive game.
+Developers and designers are collaborating to expand *The Last Drop*, a game originally created during a game jam, by enhancing its features, functionality, and overall player experience. A key goal is to ensure smooth gameplay across various PCs and to incorporate player feedback for balanced improvements. However, challenges like time management and communication pose risks to meeting deadlines and maintaining the team’s vision. Clear collaboration, regular check-ins, and resource planning are essential for delivering a high-quality, cohesive game.
 
 ## Research
 
