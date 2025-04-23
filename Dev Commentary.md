@@ -36,8 +36,12 @@ The technical knowledge from the `FInterpTo` documentation will support my proje
 
 *Figure 3*: `FInterpTo` Node
 
+![CombineRotators] (https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/Screenshot%202025-04-23%20150023.png)
 
-### Academic Source
+*Figure 3*: `Combine Rotators` Node
+
+
+### Academic Sources
 
 In his essay "Games, the New Lively Art," Henry Jenkins asserts that video games are poised to become a significant art form in the digital era, paralleling the recognition that cinema and jazz received during the machine age. He observes that games "open up new aesthetic experiences" (Jenkins, 2007, p. 23), transforming the computer screen into a platform for accessible experimentation and innovation. This perspective underscores the potential of video games to serve as dynamic art forms, engaging players in unique and meaningful ways. Graeme Kirkpatrick, in his work "Aesthetic Theory and the Video Game," further elucidates this concept by stating, "Aesthetic experience occurs when we find something is pleasing to us by virtue of its form. Such an object stimulates us in the sense that it provokes and incites a feeling response but does so in a way that goes beyond merely being pleasing to the eye… it amplifies our sense of ourselves as free moral agents" (Kirkpatrick, 2011, p. 23). Immanuel Kant also emphasizes the subjective nature of beauty, noting that "Apart from the relation to the subject’s feeling, beauty is nothing by itself." (Kant, 1987, p. 219). Applying these insights to the development of "The Last Drop," a game initially created during a game jam, highlights the importance of leveraging the unique capabilities of the gaming medium. The collaboration between developers and designers to introduce new mechanics, refine visual elements, and enhance the overall player experience embodies the spirit of experimentation and innovation that Jenkins emphasizes. By embracing the "limitless plasticity" (Jenkins, 2007, p. 39) of video games, the team can craft novel environments and interactions that captivate and immerse players. Jenkins also cautions against merely transplanting cinematic techniques into games, arguing that such practices can lead to products "lacking meaningful gameplay" (Jenkins, 2007, p. 39). This insight is particularly relevant for "The Last Drop" team, emphasizing the need to focus on interactive elements that distinguish games from other media. By recognizing and harnessing the distinct properties of video games, the developers and designers can create an experience that is both innovative and emotionally resonant. This approach will not only enhance the overall player experience but also align with the broader recognition of games as a legitimate and impactful art form in contemporary culture.
 
@@ -83,7 +87,19 @@ Once I completed development on the mechanic, I shifted my focus to thoroughly t
 
 ### Technical Difficulties
 
-I assisted a designer in pushing their work and the rive plugin to the GitHub main branch. When they initially pushed their work to main, it caused their changes to be deleted. To prevent this from happening, I carefully removed the conflicting changes before pushing their work to the main branch. Additionally, I addressed an issue with player spawning in the main menu by replacing the player character with a temporary player pawn specifically for the main menu level. This temporary pawn poses the player, which successfully resolved the spawning issue. Furthermore, I tackled a problem with the mouse glitching out on UI buttons. To fix this, I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch. By performing these tasks, I was able to help stabilize the project, ensuring that both the player's experience and the designer's workflow were smooth. These fixes significantly improved the game's functionality, allowing the project to move forward without the issues that had been previously hindering it.
+I assisted a designer in pushing their work and the rive plugin to the GitHub main branch. When they initially pushed their work to main, it caused their changes to be deleted. To prevent this from happening, I carefully removed the conflicting changes before pushing their work to the main branch. Additionally, I addressed an issue with player spawning in the main menu by replacing the player character with a temporary player pawn specifically for the main menu level. This temporary pawn poses the player, which successfully resolved the spawning issue. By performing these tasks, I was able to help stabilize the project, ensuring that both the player's experience and the designer's workflow were smooth. These fixes significantly improved the game's functionality, allowing the project to move forward without the issues that had been previously hindering it.
+
+#### Mouse Controller UI Bug
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/d_zsda8w/" scrolling="no" allowfullscreen></iframe>
+
+*Figure 9*: The bug was the player was not able to click the buttons in the main menu
+
+#### Mouse Controller UI Bug Fix
+
+<iframe width="560" height="315" src="https://blueprintue.com/render/7bo4mxqu/" scrolling="no" allowfullscreen></iframe>
+
+*Figure 10*: I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch.
 
 ## Outcome
 
