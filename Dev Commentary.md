@@ -36,10 +36,13 @@ The technical knowledge from the `FInterpTo` documentation will support my proje
 
 *Figure 3*: `FInterpTo` Node
 
-![CombineRotators] (https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/Screenshot%202025-04-23%20150023.png)
+![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/CombineRotators.png)
 
-*Figure 3*: `Combine Rotators` Node
+*Figure 4*: `Combine Rotators` Node
 
+![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/Input.png)
+
+*Figure 5*: Input Action  Node for Gamepad
 
 ### Academic Sources
 
@@ -53,13 +56,13 @@ In his essay "Games, the New Lively Art," Henry Jenkins asserts that video games
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/3843iie5/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 4*: This Blueprint rotates a static mesh smoothly over time by using a timeline named *Spin* to animate a 90-degree roll adjustment; triggered on *Event BeginPlay* after a delay, it calls *Start Spin*, which sets a looping timer (every 6 seconds) that uses *Lerp (Rotator)* to interpolate from the current to target rotation, then applies it with *SetRelativeRotation* for a continuous spinning effect.
+*Figure 6*: This Blueprint rotates a static mesh smoothly over time by using a timeline named *Spin* to animate a 90-degree roll adjustment; triggered on *Event BeginPlay* after a delay, it calls *Start Spin*, which sets a looping timer (every 6 seconds) that uses *Lerp (Rotator)* to interpolate from the current to target rotation, then applies it with *SetRelativeRotation* for a continuous spinning effect.
 
 #### Actor Component
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/i6g12nxs/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 5*: This Blueprint enhances rotation handling through a modular approach by using a collapsed node that takes input parameters (axes, time, multipliers) to output refined values, enabling smoother interpolation and reusability; the main event graph calls this node before applying the result with *SetActorRotation*, improving maintainability and scalability over the original design.
+*Figure 7*: This Blueprint enhances rotation handling through a modular approach by using a collapsed node that takes input parameters (axes, time, multipliers) to output refined values, enabling smoother interpolation and reusability; the main event graph calls this node before applying the result with *SetActorRotation*, improving maintainability and scalability over the original design.
 
 ### Bubble Size Change
 
@@ -67,19 +70,19 @@ In his essay "Games, the New Lively Art," Henry Jenkins asserts that video games
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/5ng9to-u/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 6*: This function controls bubble growth by adding *Water Amount* to *Current Size* via a *Growth* function, updating it with a *SET* node and clamping it when it reaches *Max Size*, ensuring dynamic yet controlled and realistic size changes during gameplay.
+*Figure 8*: This function controls bubble growth by adding *Water Amount* to *Current Size* via a *Growth* function, updating it with a *SET* node and clamping it when it reaches *Max Size*, ensuring dynamic yet controlled and realistic size changes during gameplay.
 
 #### Shrink Function
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/q0y2cgzq/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 7: This function manages bubble shrinking by checking if *Current Size* is below *Max Size*, then reducing it by *Water Amount* and updating it, with a second check to clamp it at *Min Size* if needed—ensuring controlled, dynamic size changes without excessive shrinking.
+*Figure 9: This function manages bubble shrinking by checking if *Current Size* is below *Max Size*, then reducing it by *Water Amount* and updating it, with a second check to clamp it at *Min Size* if needed—ensuring controlled, dynamic size changes without excessive shrinking.
 
 #### Growth Shrink Logic
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/w96ui2nl/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 8*: This mechanic runs every frame via *Event Tick*, storing *Delta Seconds* in the *GrowthShrink* node; a *Branch* checks water interaction to trigger *Growth* or *Shrink*, while *Lerp* and *FInterp To* ensure smooth, dynamic scaling transitions for fluid, responsive transformations.
+*Figure 10*: This mechanic runs every frame via *Event Tick*, storing *Delta Seconds* in the *GrowthShrink* node; a *Branch* checks water interaction to trigger *Growth* or *Shrink*, while *Lerp* and *FInterp To* ensure smooth, dynamic scaling transitions for fluid, responsive transformations.
 
 ### Testing
 
@@ -93,13 +96,13 @@ I assisted a designer in pushing their work and the rive plugin to the GitHub ma
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/d_zsda8w/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 9*: The bug was the player was not able to click the buttons in the main menu
+*Figure 11*: The bug was the player was not able to click the buttons in the main menu
 
 #### Mouse Controller UI Bug Fix
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/7bo4mxqu/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 10*: I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch.
+*Figure 12*: I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch.
 
 ## Outcome
 
