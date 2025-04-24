@@ -6,7 +6,7 @@ Developers and designers are collaborating to expand *The Last Drop*, a game ori
 
 ### Methodology
 
-For this project, I conducted extensive research on FInterp To node and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance. Additionally, I used an example of an existing game which is Portal 2 to deepen my understanding of puzzle games mechanics and ensure its proper implementation within the game. In this project, I studied Henry Jenkins' perspectives on video games as a 'lively art' to enhance my understanding of designing innovative, interactive, and emotionally resonant game experiences.
+For this project, I conducted extensive research on `FInterpTo` To node and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance. Additionally, I used an example of an existing game which is Portal 2 to deepen my understanding of puzzle games mechanics and ensure its proper implementation within the game. In this project, I studied Henry Jenkins' perspectives on video games as a 'lively art' to enhance my understanding of designing innovative, interactive, and emotionally resonant game experiences.
 
 Research into *Portal 2*, Unreal Engine 5’s `FInterpTo` function, and academic perspectives on video games has significantly shaped the development of *The Last Drop*. Inspired by *Portal 2*’s gradual mechanic introduction and seamless narrative integration, we adopted a similar approach to ensure intuitive learning and immersive gameplay. Valve’s emphasis on humor, storytelling, and innovation informed both our design process and team collaboration. The technical insight from Unreal’s `FInterpTo` guided our implementation of smooth, responsive transitions for the bubble mechanic, enhancing visual feedback and player immersion. Theoretical contributions from Jenkins, Kirkpatrick, and Kant validated our aim to treat games as meaningful art forms. These perspectives encouraged us to prioritize interactive expression over cinematic imitation, refining our aesthetic and gameplay design. Together, these sources informed a player-centric, immersive experience rooted in strong mechanics, emotional engagement, and the unique artistic potential of the video game medium.
 
@@ -26,11 +26,24 @@ The insights from *Portal 2*’s design are highly applicable to *The Last Drop*
 
 *Figure 2*: Drop Splash Mechanic from Portal 2
 
-### Unreal Engine 5 FInterp To Documentation
+### Unreal Engine 5 Documentations
 
-The documentation on `FInterpTo` in Unreal Engine will provide valuable insight into interpolating values, which will be especially relevant for The Last Drop, where smooth transitions will be key to a polished player experience. `FInterpTo` will allow for gradual movement from a start value to a target value, with inputs including the current value, target value, delta time (for frame rate smoothness), and interpolation speed. In The Last Drop, this will be used to smoothly interpolate the bubble’s size when it collides with water. This will create a natural effect, ensuring that the bubble grows and shrinks gradually and responsively. It will enhance puzzle-solving by providing consistent visual feedback, making player actions more intuitive. Interpolating the bubble’s size will ensure smooth, continuous transitions rather than abrupt changes, contributing to a polished mechanic and a more engaging, immersive player experience.
 
-The technical knowledge from the `FInterpTo` documentation will support my project work on The Last Drop by providing a method for creating smooth, responsive transitions, particularly with the bubble growth and shrinkage mechanic. By applying `FInterpTo`, I will ensure the bubble's size changes gradually and naturally when it collides with water, making the transition feel more polished and visually appealing. This will enhance the puzzle-solving experience by making player actions more intuitive and engaging. The knowledge will guide my decision-making by offering a tool to fine-tune the speed and smoothness of these transitions, ensuring they align with the overall aesthetic and gameplay goals. Using FInterpTo will contribute to a more fluid and immersive player experience, improving gameplay clarity, visual feedback, and player satisfaction. It will help create a seamless, polished interaction that strengthens the core mechanics of the game.
+
+The technical knowledge from the `FInterpTo` documentation will support my project work on The Last Drop by providing a method for creating smooth, responsive transitions, particularly with the bubble growth and shrinkage mechanic. By applying `FInterpTo`, I will ensure the bubble's size changes gradually and naturally when it collides with water, making the transition feel more polished and visually appealing. This will enhance the puzzle-solving experience by making player actions more intuitive and engaging. The knowledge will guide my decision-making by offering a tool to fine-tune the speed and smoothness of these transitions, ensuring they align with the overall aesthetic and gameplay goals. Using `FInterpTo` will contribute to a more fluid and immersive player experience, improving gameplay clarity, visual feedback, and player satisfaction. It will help create a seamless, polished interaction that strengthens the core mechanics of the game.
+
+
+ 
+The technical knowledge from the `CombineRotators` documentation will support my project work on The Last Drop by providing a method for creating smooth, continuous rotations, especially for platforms and environmental elements that are central to the game's level design. By applying `CombineRotators`, I will ensure these elements rotate fluidly and without jitter, contributing to a polished and immersive experience. This will enhance player navigation and visual clarity, making interactions with moving objects more intuitive and engaging. The knowledge will guide my decision-making by offering a stable and efficient approach to blending rotational values, allowing for both visual appeal and mechanical consistency. Using `CombineRotators` will support performance optimization across varying hardware setups and help deliver a cohesive, professional-quality game experience. It will be key in maintaining the project’s technical standards as the game evolves, enabling responsive and visually dynamic environments that strengthen the core mechanics and overall player immersion.
+
+
+ 
+The technical knowledge from the Enhanced Input documentation will support my project work on The Last Drop by providing a flexible, responsive system for handling player controls across different input devices. By applying Enhanced Input, I will ensure smooth and consistent input support for keyboard, mouse, and controllers, allowing players to choose their preferred control method without sacrificing gameplay quality. This will enhance accessibility and contribute to a more intuitive, inclusive player experience. The system’s modular structure will guide my decision-making by offering a scalable way to organize input logic, making it easier to adapt controls based on feedback and future design changes. This understanding will also support efficient collaboration between developers and designers, helping to reduce errors and maintain clarity throughout development. Using Enhanced Input will contribute to a polished and cohesive gameplay experience, strengthening the game’s responsiveness, usability, and overall quality.
+
+
+The documentation on `FInterpTo`, `CombineRotators`, and Enhanced Input in Unreal Engine offers critical insight into implementing smooth transitions, seamless rotations, and responsive controls—key elements that will significantly enhance The Last Drop. `FInterpTo`  will be used to interpolate the bubble’s size when it collides with water, creating natural growth and shrinkage that provides intuitive visual feedback and ensures a polished, immersive experience. Similarly, `CombineRotators` will be leveraged to blend rotational values, powering rotating platforms and objects to create smooth, infinite spinning effects that enhance navigation and puzzle complexity while maintaining visual cohesion and performance consistency across devices. Enhanced Input will provide a modern, flexible input system that supports context-sensitive mappings and diverse input devices, ensuring accessible, responsive controls that cater to player preference and hardware variation. Together, these tools support the project’s goals of creating a polished, dynamic, and inclusive player experience while enabling efficient development and design collaboration.
+
+
 
 ![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/FInterpTo.png)
 
@@ -38,11 +51,11 @@ The technical knowledge from the `FInterpTo` documentation will support my proje
 
 ![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/CombineRotators.png)
 
-*Figure 4*: `Combine Rotators` Node
+*Figure 4*: `CombineRotators` Node
 
 ![FInterpTo](https://raw.githubusercontent.com/SiddPlus/GitHubTutorial/refs/heads/main/Photos/Input.png)
 
-*Figure 5*: Input Action  Node for Gamepad
+*Figure 5*: Enhanced Input Action Node for Gamepad
 
 ### Academic Sources
 
@@ -86,7 +99,21 @@ In his essay "Games, the New Lively Art," Henry Jenkins asserts that video games
 
 ### Testing
 
-Once I completed development on the mechanic, I shifted my focus to thoroughly testing it to ensure that it functioned correctly and delivered a smooth, consistent experience. I began by running tests directly within the editor, which allowed me to observe the mechanic’s behavior in a controlled setting and pinpoint any bugs or unintended outcomes. This phase was critical for identifying issues early, before the mechanic was integrated into broader gameplay. I paid close attention to how it interacted with other systems, assets, and variables, making sure it behaved as expected in a variety of situations. During this testing process, I made a series of iterative adjustments. Some were small, like tweaking numerical values or collision settings, while others involved reworking logic or reorganizing scripts to improve reliability and performance. I approached the mechanic not just from a technical standpoint, but also from a player’s perspective—constantly asking whether it felt intuitive, engaging, and satisfying to use. I considered how it contributed to the overall flow and balance of the game, ensuring that it supported the intended gameplay experience. After each revision, I retested thoroughly, confirming that fixes worked and that no new problems were introduced. This cycle of testing and refinement was repeated multiple times until I reached a version of the mechanic that was both stable and enjoyable to use. By taking a careful, iterative approach, I was able to polish the mechanic into a fully functional feature, ready for integration into the complete game. The end result was a system that worked seamlessly and elevated the quality of the gameplay as a whole.
+Once I completed development on a mechanic, I shifted my focus to thoroughly testing it to ensure that it functioned correctly and delivered a smooth, consistent experience. I began by running tests directly within the editor, which allowed me to observe the mechanic’s behavior in a controlled setting and pinpoint any bugs or unintended outcomes. This early testing phase was critical for identifying issues before integration into broader gameplay. I paid close attention to how it interacted with other systems, assets, and variables, ensuring it behaved as expected in a range of situations. To support this, I created an agile testing table where I documented bugs, tracked fixes, and noted any dependencies or side effects. This table served as a visual guide for iterative development, helping me prioritize tasks and maintain clarity throughout each cycle of testing. During the process, I made a series of adjustments—some were minor, such as tweaking values or modifying collision settings, while others required reworking logic or restructuring scripts to improve overall stability and performance. I continuously approached the mechanic from both a technical and player-centric perspective, asking whether it felt intuitive, engaging, and balanced within the gameplay loop. I also evaluated how it contributed to pacing, difficulty, and player agency. After each revision, I returned to the testing table to log outcomes, reflect on changes, and reverify existing functionality. This cycle of feedback and refinement was repeated until I reached a version that felt polished and dependable. The final mechanic functioned seamlessly, elevating the quality of the gameplay experience and integrating naturally into the game’s broader system.
+
+| Test | Test Case | Test Steps | Actual Result | Expected Result | Outcome | Solution |
+|------|-----------|------------|----------------|------------------|---------|----------|
+| The gears in the environment and rotating platforms must spin forever | TC01: To confirm the gears and rotating platforms spin continuously upon starting the game | Start game | Gears and rotating platforms only rotate once | Gears and rotating platforms spin forever | Fail | Use `CombineRotators` node instead of normal Rotator node |
+|  | TC02: To confirm the gears and rotating platforms spin continuously upon starting the game | Start game | Gears and rotating platforms spin forever | Gears and rotating platforms spin forever | Pass | — |
+| As a bubble char, when it collides with water it should grow in size up to its max | TC01: To check if the bubble char grows in size up to its max if it is colliding with water | Start game<br>Player presses left click<br>Bubble moves towards water<br>Bubble collides with water | Bubble doesn’t grow in size when colliding with water | Bubble grows in size up to its max when colliding with water | Fail | Use `BPI Interact` and `OnComponentBeginOverlap` to handle the collision not just the `OnComponentBeginOverlap` |
+|  | TC02: To check if the bubble char grows in size up to its max if it is colliding with water | Start game<br>Player presses left click<br>Bubble moves towards water<br>Bubble collides with water | Bubble grows in size up to its max when colliding with water | Bubble grows in size up to its max when colliding with water | Pass | — |
+| As a bubble char, when it collides with water it should shrink in size up to its min | TC01: To check if the bubble char shrinks in size up to its min if it is not colliding with water | Start game<br>Player presses left click | Bubble shrinks in size up to its min if it is not colliding with water | Bubble shrinks in size up to its min if it is not colliding with water | Pass | — |
+| Player clicks on buttons in the main menu | TC01: To check if player is able to click the buttons in the main menu | Start game | Mouse rejects hovering over the buttons | Player is able to press the buttons in the main menu | Fail | Check if the player is not in the main menu and not in UI mode. If both are true, allow right stick input from a gamepad to control the mouse cursor position via the `Set Mouse Location` |
+|  | TC02: To check if player is able to click the buttons in the main menu | Start game | Player is able to press the buttons in the main menu | Player is able to press the buttons in the main menu | Pass | — |
+| If player spawns in main menu | TC01: To check if player character doesn’t spawn in main menu level | Start game | Player character spawns in main menu level | Player character doesn’t spawn in main menu level | Fail | Replaced the player character with a temporary player pawn specifically for the main menu level |
+|  | TC02: To check if player character doesn’t spawn in main menu level | Start game | Player character doesn’t spawn in main menu level | Player character doesn’t spawn in main menu level | Pass | — |
+
+*Figure 11*: Agile Testing Table
 
 ### Technical Difficulties
 
@@ -96,15 +123,27 @@ I assisted a designer in pushing their work and the rive plugin to the GitHub ma
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/d_zsda8w/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 11*: The bug was the player was not able to click the buttons in the main menu
+*Figure 12*: The bug was the player was not able to click the buttons in the main menu
 
 #### Mouse Controller UI Bug Fix
 
 <iframe width="560" height="315" src="https://blueprintue.com/render/7bo4mxqu/" scrolling="no" allowfullscreen></iframe>
 
-*Figure 12*: I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch.
+*Figure 13*: I connected the right thumbstick axis from the gamepad and checked if the current level wasn’t the main menu. If it wasn’t, I ensured that the mouse position was set correctly, which eliminated the glitch.
 
 ## Outcome
+
+- [Gameplay Video]()
+
+*Link 1*: Link to gameplay YouTube video of The Last Drop
+
+- [Outcome Repository](https://github.com/University-for-the-Creative-Arts/The-Last-Drop)
+
+*Link 2*: Link to Github Repository of The Last Drop project
+
+- [Outcome Build]()
+
+*Link 2*: Link to The Last Drop build on itch.io
 
 ## Reflection
 
