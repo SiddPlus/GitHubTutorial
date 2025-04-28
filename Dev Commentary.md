@@ -124,6 +124,14 @@ I assisted a designer in pushing their work and the rive plugin to the GitHub ma
 
 *Link 1*: Link to Github Repository of The Last Drop project
 
+- [Outcome Build](https://ucreative-my.sharepoint.com/:f:/g/personal/2303759_students_ucreative_ac_uk/Ek9txoh-EL9JnQtqCSUUB3cBo0-nmzBKndsqdi7A8DIk8g?e=Xf6GKY)
+
+*Link 1*: Link to build of The Last Drop project
+
+- [Game Trailer](https://www.youtube.com/watch?v=ce3V-rcXZjs)
+
+*Link 1*: Link to YouTube video of The Last Drop project trailer
+
 ## Reflection
 
 ### Research Effectiveness
