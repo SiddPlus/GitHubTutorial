@@ -120,17 +120,9 @@ I assisted a designer in pushing their work and the rive plugin to the GitHub ma
 
 ## Outcome
 
-- [Gameplay Video]()
-
-*Link 1*: Link to gameplay YouTube video of The Last Drop
-
 - [Outcome Repository](https://github.com/University-for-the-Creative-Arts/The-Last-Drop)
 
-*Link 2*: Link to Github Repository of The Last Drop project
-
-- [Outcome Build]()
-
-*Link 2*: Link to The Last Drop build on itch.io
+*Link 1*: Link to Github Repository of The Last Drop project
 
 ## Reflection
 
